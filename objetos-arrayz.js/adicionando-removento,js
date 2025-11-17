@@ -1,0 +1,14 @@
+const alunos = ['Ruan', 'Leando', 'Maria']
+console.log(alunos)
+
+//add informações (push add no final e unshift add no inicio)
+alunos.push('Gabu')
+console.log(alunos)
+alunos.unshift('Marcela')
+console.log(alunos)
+
+//removendo info - pop remove a info do final e shift removo a do inicio
+alunos.pop()
+console.log(alunos)
+alunos.shift()
+console.log(alunos)
